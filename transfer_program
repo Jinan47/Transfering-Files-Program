@@ -1,0 +1,17 @@
+import shutil as sh
+import os
+import time
+path1 = 'D:/test/source'
+path2 = 'D:/test/det'
+
+list_of_files = os.listdir(path1)
+
+
+for file_name in list_of_files:
+    if '.jpg' in file_name or '.jfif' in file_name or '.png' in file_name:
+        print(path1 + file_name)
+        sh.copyfile(path1 + '/' + file_name, path2 + '/jinan_program_' + file_name)
+        os.remove(path1 + '/' + file_name)
+        time.sleep(0.2)
+
+print('Files in', path1, 'are successfuly moved to path', path2)    
