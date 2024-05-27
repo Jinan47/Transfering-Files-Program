@@ -1,8 +1,8 @@
 import shutil as sh
 import os
 import time
-source_dir = 'enter your source directory'
-destination_dir = 'enter your destination directory'
+source_dir = 'path/to/source/directory'
+destination_dir = 'path/to/destination/directory'
 
 list_of_files = os.listdir(source_dir)
 
