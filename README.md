@@ -19,7 +19,7 @@ This simple Python script transfers photo files from a source directory to a des
     ```
 2. Navigate to the project directory:
     ```bash
-    cd transfer_photos
+    cd transfer_photo
     ```
 
 ## Usage
@@ -32,5 +32,5 @@ This simple Python script transfers photo files from a source directory to a des
     ```
 3. Run the script:
     ```bash
-    python transfer_photos.py
+    python transfer_photo.py
     ```
