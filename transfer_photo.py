@@ -1,8 +1,8 @@
 import shutil as sh
 import os
 import time
-source_dir = r'c:\Users\lenovopc\Pictures\src'
-destination_dir = r'c:\Users\lenovopc\Pictures\dest'
+source_dir = r'path/to/source/directory'
+destination_dir = r'path/to/destination/directory'
 
 list_of_files = os.listdir(source_dir)
 
